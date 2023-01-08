@@ -7,6 +7,8 @@ const initialState = {
 
 const useInitialState = () => {
     const [state, setState] = useState(initialState);
+    const [toggleOrders, setToggleOrders] = useState(false);
+    const [toggleMobile, setToggleMobile] = useState(false);
 
     const addToCart = (payload) => {
         setState({
@@ -22,10 +24,24 @@ const useInitialState = () => {
         })
     }
 
+    const handleToggleOrder = () => {
+        toggleMobile === true ? setToggleMobile(!toggleMobile) : "";
+        setToggleOrders(!toggleOrders);
+    }
+
+    const handleToggleMobile = () => {
+        toggleOrders === true ? handleToggleOrder(!toggleOrders) : "";
+        setToggleMobile(!toggleMobile);
+    }
+
     return {
         state,
         addToCart,
-        removeFromCart
+        removeFromCart,
+        toggleOrders,
+        handleToggleOrder,
+        toggleMobile,
+        handleToggleMobile
     }
 }
 

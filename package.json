@@ -1,10 +1,13 @@
 {
+  "homepage": "https://github.com/lonperman/Curso-Practico-React/",
   "name": "curso-practico-react",
   "version": "1.0.0",
   "description": "react eshop",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d dist",
     "start": "webpack serve --open",
     "build": "webpack --mode production"
   },
@@ -27,6 +30,7 @@
     "@babel/preset-react": "^7.18.6",
     "babel-loader": "^9.1.0",
     "css-loader": "^6.7.3",
+    "gh-pages": "^4.0.0",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.7.2",
