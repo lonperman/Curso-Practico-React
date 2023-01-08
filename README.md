@@ -7,7 +7,7 @@ que se desglozara en **componentes**, **contenedores** y **paginas**;
 forma mas concreta, pero toda informacion estara plasmada en mis apuntes realizados con la herramienta `Notion`, este proyecto
 cuenta con dos ramas.
 - main: Es la que se utilizo para realizar el `deploy` con **github actions**.
-- master: Es donde se encuentra alojado el proyecto principal y en donde esta plasmada la **arquitectura**,**configuracion** y demas elementos del proyecto.
+- master: Es donde se encuentra alojado el proyecto principal y en donde esta plasmada la **arquitectura**,**configuracion** y demás elementos del proyecto.
 
 ### Para iniciar el proyecto se deben ejecutar los siguientes comandos.
 ```
@@ -18,7 +18,7 @@ cuenta con dos ramas.
   npm run start
 ```
 > Para iniciar el proyecto.
-## Mi apuntes de ##Notion##. [link](https://quilted-plant-8d6.notion.site/Curso-Pr-ctico-de-React-js-bc37252c13af4ce6ab8e525324ef46fd)
+## Mi apuntes de Notion. [link](https://quilted-plant-8d6.notion.site/Curso-Pr-ctico-de-React-js-bc37252c13af4ce6ab8e525324ef46fd)
 ## Metologia [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/)
 
 
